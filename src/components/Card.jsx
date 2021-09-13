@@ -1,5 +1,4 @@
-import React from "react";
-import { useContext } from "react/cjs/react.development";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import ContextDataType from "../context/ContextDataType";
 const Container = styled.article`
@@ -110,7 +109,7 @@ const COLORS = [
   "#F1C75B",
 ];
 const Card = ({ title, timeframes, itemIndex }) => {
-  const [currentDataType] = useContext(ContextDataType);
+  const { currentDataType } = useContext(ContextDataType);
   const cardImageSvg = `/images/icon-${title
     .toLowerCase()
     .replace(` `, "-")}.svg`;
