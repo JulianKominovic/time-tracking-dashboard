@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import CardContainer from "./components/CardContainer";
 import { DataTypeProvider } from "./context/ContextDataType";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 const MainBody = styled.main`
   display: flex;
   justify-content: center;
@@ -18,11 +20,15 @@ const MainBody = styled.main`
 
 function App() {
   return (
-    <MainBody>
-      <DataTypeProvider>
-        <CardContainer></CardContainer>
-      </DataTypeProvider>
-    </MainBody>
+    <Router>
+      <Route path="/">
+        <MainBody>
+          <DataTypeProvider>
+            <CardContainer></CardContainer>
+          </DataTypeProvider>
+        </MainBody>
+      </Route>
+    </Router>
   );
 }
 
