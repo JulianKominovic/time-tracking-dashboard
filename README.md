@@ -32,20 +32,20 @@ Users should be able to:
 
 ### Desktop
 
-![React-Stylecomponents-solution-1920x1080](D:\Programacion\FRONTEND MENTOR\time-tracking-dashboard-main\time-tracking-dashboard-react-styled-components\images\React-Stylecomponents-solution-1920x1080.png)
+![React-Stylecomponents-solution-1920x1080](https://github.com/JulianKominovic/time-tracking-dashboard/blob/master/images/React-Stylecomponents-solution-1920x1080.png)
 
 
 
 ### Mobile
 
-![React-Stylecomponents-solution-mobile](D:\Programacion\FRONTEND MENTOR\time-tracking-dashboard-main\time-tracking-dashboard-react-styled-components\images\React-Stylecomponents-solution-mobile.png)
+![React-Stylecomponents-solution-mobile](https://github.com/JulianKominovic/time-tracking-dashboard/blob/master/images/React-Stylecomponents-solution-mobile.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Here](https://www.frontendmentor.io/solutions/react-js-with-styled-components-and-usecontext-KuCzkZ7yE)
+- Live Site URL: [Live demo here](https://jk-time-tracking-dashboard.netlify.app/)
 
 ## My process
 
@@ -63,7 +63,7 @@ Users should be able to:
 
 ### What I learned
 
-```react
+```js
 // CONTEXT API from REACT
 const Context = React.createContext({});
 
