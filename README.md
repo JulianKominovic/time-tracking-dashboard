@@ -16,4 +16,91 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
+
+### Screenshot
+
+### Desktop
+
+![React-Stylecomponents-solution-1920x1080](D:\Programacion\FRONTEND MENTOR\time-tracking-dashboard-main\time-tracking-dashboard-react-styled-components\images\React-Stylecomponents-solution-1920x1080.png)
+
+
+
+### Mobile
+
+![React-Stylecomponents-solution-mobile](D:\Programacion\FRONTEND MENTOR\time-tracking-dashboard-main\time-tracking-dashboard-react-styled-components\images\React-Stylecomponents-solution-mobile.png)
+
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
+- React useContext
+
+
+
+### What I learned
+
+```react
+// CONTEXT API from REACT
+const Context = React.createContext({});
+
+export function DataTypeProvider({ children }) {
+  const [currentDataType, setCurrentDataType] = useState("Daily");
+  return (
+    <Context.Provider value={{ currentDataType, setCurrentDataType }}>
+      {children}
+    </Context.Provider>
+  );
+}
+export default Context;
+```
+
+### Continued development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+- API call 
+
+### Useful resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
