@@ -110,10 +110,11 @@ const COLORS = [
   "#F1C75B",
 ];
 const Card = ({ title, timeframes, itemIndex }) => {
-  const { currentDataType, setCurrentDataType } = useContext(ContextDataType);
+  const [currentDataType] = useContext(ContextDataType);
   const cardImageSvg = `/images/icon-${title
     .toLowerCase()
     .replace(` `, "-")}.svg`;
+
   return (
     <Container>
       <CardTop bg={COLORS[itemIndex]}>
